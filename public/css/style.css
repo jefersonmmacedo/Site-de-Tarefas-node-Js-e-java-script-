@@ -1,0 +1,295 @@
+body{
+    background-color:#e5e5e5 ;
+    color: #25282b;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+body.hideScroll{
+    overflow: hidden;
+}
+
+p, .description{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+a {
+    color:  #5E84FF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#container{
+    width: 80%;;
+    max-width: 980px;
+    margin: 40px auto;
+
+    display: flex;
+}
+
+#intro{
+    width: 300px;
+    margin-right: 40px;
+}
+
+
+main{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+
+button{
+    color:  #5E84FF;
+    border: none;
+    font-weight: bold;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+}
+
+button:hover{
+    text-decoration: underline;
+}
+
+.button{ color: white;
+    font-size: 14px;
+    background-color: #5E84FF;
+    width: 130px;
+    height: 40px;
+    border-radius: 6px;
+    box-shadow: 0px 8px 16px#5E84FF32;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button:hover{ 
+    text-decoration: none;
+}
+
+#buttons{
+    text-align: center;
+    justify-content: space-evenly;
+    margin-bottom: 32px;
+    display: flex;
+}
+
+
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    color: #777
+}
+
+footer a {
+    color: #777;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color:  #5E84FF;
+    text-align: center;
+}
+
+
+.ideia{
+    background-color: white;
+    padding: 22px;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.1) ;
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.ideia img {
+    width: 60px;
+    height: 60px;
+    margin-right: 32px;
+}
+
+
+.ideia h3 {
+      margin: 0;
+}
+
+.ideia p {
+  
+    margin: 4px 0;
+    color: #777;
+}
+
+.ideia .description {
+    margin: 8px 0;
+  }
+
+
+  /* modal*/
+
+  #modal.addScroll{
+      overflow: auto;
+  }
+
+  #modal{
+      background-color: #5E84FF;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      transition: 800ms;
+  }
+
+  #modal .content{
+      margin-top: 2%;
+      color: white;
+  }
+
+  #modal .content h1{
+      text-align: center;
+      text-transform: uppercase;
+  }
+
+  .content form {
+      width: 80%;
+      max-width: 800px;
+    margin: 0 auto 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px
+  }
+
+  .content form div:nth-child(3),
+  .content form div:nth-child(4),
+  .content form div:nth-child(5){
+      grid-column: span 2;
+  }
+
+  
+  form input, form textarea, select, option{
+      width: 100%;
+      padding: 12px;
+      box-sizing: border-box;
+      border-radius:  6px;
+      border: 1px solid rgb(66, 101, 216);
+      outline: none;
+      font-size: 12px;
+  }
+
+  form label {
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+  }
+
+  form button{
+      background: white;
+      width: 150px;
+      height: 40px;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+      grid-column: 2;
+    justify-self: end;
+    transition: 600ms;
+
+  }
+
+  form button:hover{
+      text-decoration: none;
+    background: #5E84FF;
+    color: white;
+    border: 1px solid #ffffff;
+    
+    
+}
+
+form a{
+    color: rgb(209, 218, 250);
+    text-decoration: none;
+}
+
+#modal.hide{
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+/* TAREFAS */
+#page-tarefas #container{
+    display: block;
+}
+
+#page-tarefas header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-tarefas nav{
+    display: flex;
+    align-items: center;
+}
+
+#page-tarefas nav li {
+list-style-type: none;
+margin-right: 16px;
+}
+#page-tarefas nav a {
+    color: #28282b;
+}
+#page-tarefas nav li:last-child {
+    margin: 0;
+    width: 150px;
+    height: 40px;
+    background-color: #5E84FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+
+#page-tarefas nav li:last-child a{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+section#titulo{
+text-align: center;
+margin: 64px 0;
+}
+
+section#titulo p {
+    opacity: 0.7;
+    margin: 0px;
+}
+
+section#titulo h1 {
+    font-size: 28px;
+    margin: 0px;
+  }
+
+  section#ideias{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  section#ideias .ideia{
+    margin: 0px;
+  }
+  
