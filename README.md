@@ -1,5 +1,5 @@
 # Site-de-Tarefas-node-Js-e-java-script-
-Site simples para cadastro de tarefas e ideias a serem efetuadas durante a pândemia para sair do tédio
+Site simples para cadastro de tarefas e ideias a serem efetuadas durante a pândemia para sair do tédio<br?
 Projeto desenvolvodo no WorkShop da RocketSeat
 
 
