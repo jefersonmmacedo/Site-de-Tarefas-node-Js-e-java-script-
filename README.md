@@ -4,5 +4,17 @@ Projeto desenvolvodo no WorkShop da RocketSeat <br><br>
 <b>Página Inicial do Projeto</b>
 <br><br>
 ![alt text](https://github.com/jefersonmmacedo/Site-de-Tarefas-node-Js-e-java-script-/blob/master/public/img/screen1.png)
+<br><br>
+<b>Adicionando Tarefas</b>
+<br><br>
+![alt text](https://github.com/jefersonmmacedo/Site-de-Tarefas-node-Js-e-java-script-/blob/master/public/img/screen2.png)
+<br><br>
+<b>Página das tarefas adicionadas</b>
+<br><br>
+![alt text](https://github.com/jefersonmmacedo/Site-de-Tarefas-node-Js-e-java-script-/blob/master/public/img/screen3.png)
+
+
+
+
 
 
